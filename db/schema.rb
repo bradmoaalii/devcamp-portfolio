@@ -11,6 +11,7 @@ ActiveRecord::Schema.define(version: 20171012222259) do
     t.datetime "updated_at", null: false
   end
 
+
   create_table "portfolios", force: :cascade do |t|
     t.string "title"
     t.string "subtitle"
