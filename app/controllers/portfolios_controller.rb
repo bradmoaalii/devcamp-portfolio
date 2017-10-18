@@ -1,9 +1,5 @@
 class PortfoliosController < ApplicationController
-<<<<<<< HEAD
-  def index 
-  	@portfolio_items = Portfolio.all
-  end
-=======
+
 	def index
 		@portfolio_items = Portfolio.all
 	end
@@ -55,6 +51,4 @@ def destroy
       format.html { redirect_to portfolios_url, notice: 'Record was removed.' }
     end
   end
-
->>>>>>> 8708dedb158a15bdaf4adcbd6375ce43d62d588b
 end
