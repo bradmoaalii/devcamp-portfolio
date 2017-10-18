@@ -1,9 +1,4 @@
 class PortfoliosController < ApplicationController
-<<<<<<< HEAD
-  def index 
-  	@portfolio_items = Portfolio.all
-  end
-=======
 	def index
 		@portfolio_items = Portfolio.all
 	end
@@ -56,5 +51,5 @@ def destroy
     end
   end
 
->>>>>>> 8708dedb158a15bdaf4adcbd6375ce43d62d588b
+
 end
