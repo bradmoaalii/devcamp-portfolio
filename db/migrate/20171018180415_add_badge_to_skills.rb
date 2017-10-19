@@ -3,3 +3,5 @@ class AddBadgeToSkills < ActiveRecord::Migration[5.1]
     add_column :skills, :badge, :text
   end
 end
+
+

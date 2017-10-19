@@ -51,6 +51,6 @@ puts "9 portfolio items created"
   Portfolio.last.technologies.create!(
     name: "Technology #{technology}"
   )
-  end
+end
 
   puts "3 technologies created"
