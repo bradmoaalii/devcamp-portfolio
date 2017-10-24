@@ -15,6 +15,10 @@ module ApplicationHelper
      		content_tag(:p, greeting, class: "source-greeting")
      	end
      end
+
+     def copyright_helper
+        MoaaliiViewTool::Renderer.copyright 'Brad Moaalii', 'All rights reserved'
+     end
 end
 
 
