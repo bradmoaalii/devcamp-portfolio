@@ -169,5 +169,10 @@ body {
 
  .card-block {
     color: black;
-    text_align: left;
+    text-align: left;
+    margin: 3%;
  }
+
+.auth_links a {
+    color: black;
+}
