@@ -1,4 +1,3 @@
-alert('im right behind you')
 
 ;(function(root, factory) {
   if (typeof define === 'function' && define.amd) {
