@@ -17,7 +17,9 @@ module ApplicationHelper
   end
 
   def copyright_generator
+
     MoaaliiViewTool::Renderer.copyright 'Brad Moaalii', 'All rights reserved'
+
   end
 
   def nav_items
