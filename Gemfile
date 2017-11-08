@@ -48,3 +48,9 @@ gem 'twitter', '~> 6.1'
 gem 'redis', '~> 4.0', '>= 4.0.1'
 gem 'therubyracer', '~> 0.12.3'
 gem 'coffee-script-source', '~> 1.12', '>= 1.12.2'
+gem 'redcarpet', '~> 3.4'
+gem 'coderay', '~> 1.1', '>= 1.1.2'
+
+
+
+
