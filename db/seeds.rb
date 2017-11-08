@@ -1,10 +1,22 @@
 User.create!(
   email: 'admin@admin.com',
-  name: 'brad',
+  name: 'Admin User',
   password: 'asdfasdf', 
   password_confirmation: 'asdfasdf',
   roles: 'site_admin'
   )
+
+puts "1 Admin user created"
+
+User.create!(
+  email: 'admin2@admin.com',
+  name: 'Admin User',
+  password: 'asdfasdf', 
+  password_confirmation: 'asdfasdf',
+  roles: 'Regular User'
+  )
+
+puts "1 Regular user created"
 
 
 3.times do |topic|
