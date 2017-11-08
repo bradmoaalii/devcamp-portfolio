@@ -17,9 +17,7 @@ module ApplicationHelper
   end
 
   def copyright_generator
-
     MoaaliiViewTool::Renderer.copyright 'Brad Moaalii', 'All rights reserved'
-
   end
 
   def nav_items
@@ -70,10 +68,11 @@ module ApplicationHelper
 
     if alert
       alert_generator alert
-    end    
+    end
   end
 
   def alert_generator msg
     js add_gritter(msg, title: "Brad Moaalii Portfolio", sticky: false)
   end
+
 end
