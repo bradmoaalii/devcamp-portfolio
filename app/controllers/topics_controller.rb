@@ -21,6 +21,4 @@ class TopicsController < ApplicationController
     @set_sidebar_topics = Topic.with_blogs
 
   end
-    
-  end
 end
