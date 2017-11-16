@@ -1,6 +1,7 @@
 @import "bootstrap";
 @import "jquery-ui";
 @import "gritter";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 
 body {
@@ -8,6 +9,7 @@ body {
 }
 
 .navbar {
+  margin-top: 50px;
   margin-bottom: 50px;
   padding-top: 50;
 }
@@ -55,19 +57,26 @@ li.active a {
   padding-top: 6rem;
   padding-bottom: 6rem;
   margin-bottom: 0;
-  background-color: #fff;
+  background-image: url('beetle.jpg');
+  background-position: 55%;
+  color: white;
 }
 
 .jumbotron p:last-child {
   margin-bottom: 0;
+  color: white;
+
 }
 
 .jumbotron-heading {
   font-weight: 300;
+  font-family: roboto;
+  color: white;
 }
 
 .jumbotron .container {
   max-width: 40rem;
+  color: white;
 }
 
 .album {
